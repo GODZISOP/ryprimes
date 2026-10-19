@@ -1,5 +1,3 @@
-import honeyImg from '../images/royal-sidr-honey.jpg';
-
 export const categories = [
   {
     id: 'home-living',
@@ -7,7 +5,7 @@ export const categories = [
     description: 'Ceramic ultrasonic aroma systems, architectural task illumination, and curated residential decor.',
     buttonText: 'Shop Home & Living',
     link: '#',
-    image: 'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=80',
     itemCount: 2
   },
   {
@@ -16,7 +14,7 @@ export const categories = [
     description: 'Dermatologist-grade peptide skincare, luxury botanical elixirs, and signature royal oud perfumes.',
     buttonText: 'Shop Personal Care',
     link: '#',
-    image: 'https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=800&q=80',
     itemCount: 2
   },
   {
@@ -25,7 +23,7 @@ export const categories = [
     description: 'High-fidelity spatial audio headsets, 100W GaN fast desktop charging stations, and modern consumer tech.',
     buttonText: 'Shop Electronics',
     link: '#',
-    image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1550009158-9ebf69173e03?auto=format&fit=crop&w=800&q=80',
     itemCount: 2
   },
   {
@@ -34,7 +32,7 @@ export const categories = [
     description: 'Single-estate cold extracted olive reserves, Grade A+ wild mountain Sidr honey, and artisanal provisions.',
     buttonText: 'Shop Gourmet',
     link: '#',
-    image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1506368249639-73a05d6f6488?auto=format&fit=crop&w=800&q=80',
     itemCount: 2
   }
 ];
@@ -42,57 +40,57 @@ export const categories = [
 export const products = [
   {
     id: 1,
-    name: 'AuraBreeze Ultrasonic Ambient Aroma Diffuser & Humidifier',
+    name: 'RYP PureBreeze Artisan Ceramic Ultrasonic Aroma Diffuser (450ml)',
     category: 'home-living',
     categoryName: 'Home & Modern Living',
-    sku: 'SRL-HOM-101',
-    price: '$ 36',
-    priceNumeric: 36,
-    packSize: 'Hand-Crafted Ceramic Stoneware Diffuser (400ml Tank)',
+    sku: 'RYP-HOM-101',
+    price: '$ 38',
+    priceNumeric: 38,
+    packSize: 'Hand-Crafted Ceramic Stoneware Diffuser (450ml Tank)',
     availability: 'In Stock (Ready to Dispatch)',
     stockUnits: 3200,
     minOrder: '1 Master Unit',
     rating: 5.0,
-    reviewCount: 84,
+    reviewCount: 96,
     priceNote: 'Direct Factory & Bulk Wholesale Tier Available',
     image: 'https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=800&q=80',
     link: '#',
-    description: 'Whisper-quiet ceramic ultrasonic aroma diffuser with warm ambient LED illumination, dual mist modes, and automatic safety shut-off.',
-    longDescription: 'Curated and distributed by RY Prime Service LLC for boutique lifestyle retailers and wellness spaces. Hand-finished matte ceramic stoneware casing with ultra-fine cold-vapor atomization to preserve essential oil integrity across rooms up to 450 sq. ft.',
+    description: 'Whisper-quiet matte ceramic ultrasonic aroma diffuser with warm ambient LED ring, dual continuous/intermittent mist modes, and safety auto-off.',
+    longDescription: 'Curated and distributed globally by RY Prime Service LLC for boutique lifestyle retailers and executive residential suites. Hand-finished matte ceramic stoneware casing with ultra-fine cold-vapor atomization to preserve pure essential oil therapeutic properties across rooms up to 500 sq. ft.',
     features: [
       'Hand-crafted artisan ceramic cover with whisper-quiet ultrasonic atomization (<20dB)',
-      'Dual continuous and intermittent mist settings with 10-hour uninterrupted runtime',
+      'Dual continuous and intermittent mist settings with up to 12-hour continuous runtime',
       'Warm ambient LED glow ring with independent brightness and breathing light modes',
-      'Waterless auto shut-off sensor ensures complete safety for home and commercial suites',
+      'Waterless auto shut-off sensor ensures complete safety for residential and commercial suites',
       'BPA-free medical grade internal reservoir compatible with 100% pure essential oils'
     ],
     tiers: [
-      { range: '1 - 19 Units', price: '$ 36', discount: 'Retail Base' },
-      { range: '20 - 99 Units', price: '$ 29', discount: '19% Wholesale' },
-      { range: '100+ Units', price: '$ 23', discount: '36% Commercial Pallet' }
+      { range: '1 - 19 Units', price: '$ 38', discount: 'Retail Base' },
+      { range: '20 - 99 Units', price: '$ 31', discount: '18% Wholesale' },
+      { range: '100+ Units', price: '$ 24', discount: '37% Commercial Pallet' }
     ],
     specs: [
-      { label: 'Reservoir Capacity', value: '400 ml' },
-      { label: 'Mist Output', value: '35-50 ml/hour' },
+      { label: 'Reservoir Capacity', value: '450 ml' },
+      { label: 'Mist Output', value: '35-55 ml/hour' },
       { label: 'Casing Material', value: 'Matte Ceramic & Eco-ABS' },
-      { label: 'Coverage Area', value: 'Up to 450 sq. ft.' },
+      { label: 'Coverage Area', value: 'Up to 500 sq. ft.' },
       { label: 'Warranty', value: '2 Year Commercial Replacement Guarantee' }
     ]
   },
   {
     id: 2,
-    name: 'Lumina Arc Brass Architectural Task Desk Lamp',
+    name: 'RYP Lumina Arc Brushed Brass Architectural Task Desk Lamp',
     category: 'home-living',
     categoryName: 'Home & Modern Living',
-    sku: 'SRL-HOM-102',
-    price: '$ 42',
-    priceNumeric: 42,
+    sku: 'RYP-HOM-102',
+    price: '$ 46',
+    priceNumeric: 46,
     packSize: 'Brushed Brass Task Lamp with Integrated 15W Qi Fast Charging Base',
     availability: 'In Stock (Ready to Ship)',
     stockUnits: 2700,
     minOrder: '1 Unit',
     rating: 4.9,
-    reviewCount: 68,
+    reviewCount: 78,
     priceNote: 'Volume Tier Pricing',
     image: 'https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=800&q=80',
     link: '#',
@@ -106,9 +104,9 @@ export const products = [
       'Automatic 45-minute auto-off sleep timer and smart brightness memory'
     ],
     tiers: [
-      { range: '1 - 24 Units', price: '$ 42', discount: 'Standard Price' },
-      { range: '25 - 99 Units', price: '$ 34', discount: '19% Bulk Discount' },
-      { range: '100+ Units', price: '$ 27', discount: '35% Master Carton' }
+      { range: '1 - 24 Units', price: '$ 46', discount: 'Standard Price' },
+      { range: '25 - 99 Units', price: '$ 37', discount: '20% Bulk Discount' },
+      { range: '100+ Units', price: '$ 29', discount: '37% Master Carton' }
     ],
     specs: [
       { label: 'Chassis Material', value: 'Brushed Brass & Aircraft Aluminum' },
@@ -119,20 +117,20 @@ export const products = [
   },
   {
     id: 3,
-    name: 'Sultan Royale Velvet Oud & Sandalwood Extrait de Parfum',
+    name: 'RYP Velvet Oud & Imperial Amber Extrait de Parfum (100ml)',
     category: 'personal-care',
     categoryName: 'Personal Care & Fragrances',
-    sku: 'SRL-PRF-201',
-    price: '$ 45',
-    priceNumeric: 45,
+    sku: 'RYP-PRF-201',
+    price: '$ 52',
+    priceNumeric: 52,
     packSize: '100ml Heavy Crystal Flacon with Magnetic Metallic Atomizer',
     availability: 'In Stock (Ready to Ship)',
     stockUnits: 3600,
     minOrder: '1 Unit',
     rating: 5.0,
-    reviewCount: 102,
+    reviewCount: 114,
     priceNote: 'Boutique & Perfumery Wholesale Available',
-    image: 'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=800&q=80',
     link: '#',
     description: 'Regal oriental fragrance with top notes of saffron and Calabrian bergamot, heart of aged Cambodian agarwood, and a velvety ambergris base.',
     longDescription: 'Handcrafted and batch-matured under the highest artisanal fragrance standards for RY Prime Service LLC. A long-lasting 28% Extrait concentration designed for high-end boutique perfumeries and discerning retailers worldwide, presented in an embossed luxury gift box.',
@@ -144,9 +142,9 @@ export const products = [
       'Luxury gift-ready packaging with individual authenticity batch certificate'
     ],
     tiers: [
-      { range: '1 - 29 Units', price: '$ 45', discount: 'Base Price' },
-      { range: '30 - 119 Units', price: '$ 36', discount: '20% Salon Tier' },
-      { range: '120+ Units', price: '$ 28', discount: '38% Wholesale MOQ' }
+      { range: '1 - 29 Units', price: '$ 52', discount: 'Base Price' },
+      { range: '30 - 119 Units', price: '$ 42', discount: '19% Salon Tier' },
+      { range: '120+ Units', price: '$ 33', discount: '37% Wholesale MOQ' }
     ],
     specs: [
       { label: 'Volume', value: '100ml / 3.4 fl. oz.' },
@@ -157,34 +155,34 @@ export const products = [
   },
   {
     id: 4,
-    name: 'Bio-Active Multi-Peptide Firming Recovery Serum',
+    name: 'RYP Bio-Active Multi-Peptide Cellular Skin Recovery Elixir',
     category: 'personal-care',
     categoryName: 'Personal Care & Fragrances',
-    sku: 'SRL-SKN-202',
-    price: '$ 32',
-    priceNumeric: 32,
+    sku: 'RYP-SKN-202',
+    price: '$ 34',
+    priceNumeric: 34,
     packSize: 'Clinical Hydration Treatment Kit with Niacinamide & Squalane',
     availability: 'In Stock (Ready to Ship)',
     stockUnits: 4100,
     minOrder: '1 Unit',
     rating: 4.9,
-    reviewCount: 91,
+    reviewCount: 98,
     priceNote: 'Dermatologist Tested & Approved',
-    image: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=800&q=80',
     link: '#',
     description: 'Clinical dermatological formulation combining 5 bio-identical peptides, squalane, and triple molecular hyaluronic acid for intensive barrier repair.',
-    longDescription: 'Formulated for clinical skincare distributors and beauty retailers under RY Prime Service LLC standards. Dermatologist-tested, non-comedogenic, and 100% cruelty-free formulation packaged in airless luxury glass dispensers to preserve active ingredient stability.',
+    longDescription: 'Formulated for clinical skincare distributors and beauty retailers under RY Prime Service LLC standards. Dermatologist-tested, non-comedogenic, and 100% cruelty-free formulation packaged in amber dropper bottles to preserve active ingredient stability.',
     features: [
       'Bio-identical 5-Ceramide complex (EOP, NS, NP, AS, AP) repairs damaged skin barriers',
       'Botanical olive squalane and 5% niacinamide reduce redness and even skin tone',
       'Triple molecular weight hyaluronic acid delivers continuous 72-hour deep cellular hydration',
       'Hypoallergenic, fragrance-free formula certified safe for highly sensitive skin',
-      'Vacuum airless pump containers prevent bacterial contamination and oxidation'
+      'UV-protective pharmaceutical glass dropper bottle preserves active peptides'
     ],
     tiers: [
-      { range: '1 - 19 Units', price: '$ 32', discount: 'Single Unit Price' },
-      { range: '20 - 79 Units', price: '$ 25', discount: '22% Retailer Tier' },
-      { range: '80+ Units', price: '$ 19', discount: '40% Master Carton' }
+      { range: '1 - 19 Units', price: '$ 34', discount: 'Single Unit Price' },
+      { range: '20 - 79 Units', price: '$ 27', discount: '21% Retailer Tier' },
+      { range: '80+ Units', price: '$ 21', discount: '38% Master Carton' }
     ],
     specs: [
       { label: 'Kit Components', value: '50ml Recovery Serum + 50g Lipid Cream' },
@@ -195,23 +193,23 @@ export const products = [
   },
   {
     id: 5,
-    name: 'AeroBeats Spatial Audio Wireless ANC Studio Headphones',
+    name: 'RYP ApexSound Hybrid ANC Spatial Audio Wireless Headphones',
     category: 'smart-electronics',
     categoryName: 'Smart Tech & Gadgets',
-    sku: 'SRL-AUD-301',
-    price: '$ 59',
-    priceNumeric: 59,
+    sku: 'RYP-AUD-301',
+    price: '$ 64',
+    priceNumeric: 64,
     packSize: 'Hi-Res Spatial Audio Over-Ear Headset with Hard Travel Case',
     availability: 'In Stock (Ready to Ship)',
     stockUnits: 2400,
     minOrder: '1 Unit',
     rating: 5.0,
-    reviewCount: 124,
+    reviewCount: 135,
     priceNote: 'Wholesale Electronics Tier Available',
-    image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=800&q=80',
     link: '#',
     description: 'Studio-grade acoustic clarity with hybrid active noise cancellation, custom 40mm titanium drivers, and 45-hour continuous playback.',
-    longDescription: 'Curated and distributed globally by RY Prime Service LLC. Built with dual transparency mode, spatial audio head tracking, Bluetooth 5.3 multi-point streaming, and memory-foam ear cushions wrapped in breathable protein leather for unmatched acoustic comfort.',
+    longDescription: 'Curated and distributed globally by RY Prime Service LLC. Built with dual transparency mode, spatial audio head tracking, Bluetooth 5.3 multi-point streaming, and memory-foam ear cushions wrapped in breathable protein leather for acoustic luxury.',
     features: [
       'Hybrid ANC with 6 dedicated feedforward/feedback mics cancels up to 42dB ambient noise',
       'Titanium-coated 40mm acoustic drivers deliver crystalline highs and punchy bass depth',
@@ -220,9 +218,9 @@ export const products = [
       'Built-in AI beamforming ENC microphone ensures studio-grade voice calls'
     ],
     tiers: [
-      { range: '1 - 14 Units', price: '$ 59', discount: 'Base Wholesale' },
-      { range: '15 - 59 Units', price: '$ 49', discount: '17% Distributor' },
-      { range: '60+ Units', price: '$ 39', discount: '34% Bulk Pallet' }
+      { range: '1 - 14 Units', price: '$ 64', discount: 'Base Wholesale' },
+      { range: '15 - 59 Units', price: '$ 53', discount: '17% Distributor' },
+      { range: '60+ Units', price: '$ 42', discount: '34% Bulk Pallet' }
     ],
     specs: [
       { label: 'Bluetooth Protocol', value: 'Bluetooth 5.3 with LDAC & AAC' },
@@ -233,18 +231,18 @@ export const products = [
   },
   {
     id: 6,
-    name: 'ApexVolt 100W GaN Quad-Port Fast Desktop Charger',
+    name: 'RYP TurboVolt 100W GaN III Quad-Port Desktop Fast Charger',
     category: 'smart-electronics',
     categoryName: 'Smart Tech & Gadgets',
-    sku: 'SRL-PWR-302',
-    price: '$ 29',
-    priceNumeric: 29,
+    sku: 'RYP-PWR-302',
+    price: '$ 32',
+    priceNumeric: 32,
     packSize: 'High-Speed 4-Port GaN Desktop Charger (3x USB-C + 1x USB-A)',
     availability: 'In Stock (Ready to Ship)',
     stockUnits: 4900,
     minOrder: '1 Unit',
     rating: 4.9,
-    reviewCount: 79,
+    reviewCount: 88,
     priceNote: 'High Velocity Retail Ready',
     image: 'https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&w=800&q=80',
     link: '#',
@@ -258,9 +256,9 @@ export const products = [
       'Multi-layer safety: over-voltage, over-temperature, and short-circuit protection'
     ],
     tiers: [
-      { range: '1 - 29 Units', price: '$ 29', discount: 'Retail Base' },
-      { range: '30 - 119 Units', price: '$ 23', discount: '20% Volume' },
-      { range: '120+ Units', price: '$ 18', discount: '38% Wholesale Carton' }
+      { range: '1 - 29 Units', price: '$ 32', discount: 'Retail Base' },
+      { range: '30 - 119 Units', price: '$ 25', discount: '22% Volume' },
+      { range: '120+ Units', price: '$ 19', discount: '40% Wholesale Carton' }
     ],
     specs: [
       { label: 'Total Output', value: '100W Max' },
@@ -271,20 +269,20 @@ export const products = [
   },
   {
     id: 7,
-    name: 'Royal Sidr Mountain Raw Honey Reserve (Grade A+)',
+    name: 'RYP Royal Highland Raw Sidr Honey Reserve (Grade A+ 500g)',
     category: 'gourmet-pantry',
     categoryName: 'Gourmet & Pantry Staples',
-    sku: 'SRL-HNY-401',
-    price: '$ 26',
-    priceNumeric: 26,
-    packSize: '500g Hexagonal Glass Hex-Jar with Hand-Carved Honey Dipper',
+    sku: 'RYP-HNY-401',
+    price: '$ 29',
+    priceNumeric: 29,
+    packSize: '500g Hexagonal Glass Hex-Jar with Hand-Carved Olivewood Dipper',
     availability: 'In Stock (Ready to Ship)',
     stockUnits: 5600,
     minOrder: '1 Master Unit',
     rating: 5.0,
-    reviewCount: 142,
+    reviewCount: 156,
     priceNote: 'Export Grade Certified 100% Raw & Halal',
-    image: honeyImg,
+    image: 'https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=800&q=80',
     link: '#',
     description: 'Unfiltered monofloral raw mountain Sidr honey harvested from pristine wild highlands, rich in active natural enzymes and rich caramel notes.',
     longDescription: 'Procured direct from certified highland apiaries by RY Prime Service LLC. Laboratory-verified 100% pure raw honey packaged in gold-foil embossed hexagonal glass jars with an included handcrafted wooden honey dipper.',
@@ -296,9 +294,9 @@ export const products = [
       'Certified 100% Halal, Non-GMO, and batch tested for purity'
     ],
     tiers: [
-      { range: '1 - 39 Units', price: '$ 26', discount: 'Standard Price' },
-      { range: '40 - 149 Units', price: '$ 21', discount: '19% Retail Pack' },
-      { range: '150+ Units', price: '$ 16.50', discount: '37% Export Tier' }
+      { range: '1 - 39 Units', price: '$ 29', discount: 'Standard Price' },
+      { range: '40 - 149 Units', price: '$ 23', discount: '20% Retail Pack' },
+      { range: '150+ Units', price: '$ 18', discount: '38% Export Tier' }
     ],
     specs: [
       { label: 'Net Weight', value: '500g / 17.6 oz' },
@@ -309,18 +307,18 @@ export const products = [
   },
   {
     id: 8,
-    name: 'Mediterranean Cold-Pressed Extra Virgin Olive Oil Reserve',
+    name: 'RYP First Cold-Pressed Extra Virgin Olive Oil Reserve (750ml)',
     category: 'gourmet-pantry',
     categoryName: 'Gourmet & Pantry Staples',
-    sku: 'SRL-OIL-402',
-    price: '$ 23',
-    priceNumeric: 23,
+    sku: 'RYP-OIL-402',
+    price: '$ 25',
+    priceNumeric: 25,
     packSize: '750ml Dark UV-Protected Marasca Glass with Precision Pourer',
     availability: 'In Stock (Ready to Ship)',
     stockUnits: 4500,
     minOrder: '1 Unit',
     rating: 4.9,
-    reviewCount: 99,
+    reviewCount: 108,
     priceNote: 'Restaurant & Wholesale Bulk Rates',
     image: 'https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=800&q=80',
     link: '#',
@@ -334,9 +332,9 @@ export const products = [
       'Traceable single-estate harvest with complete laboratory analysis certificates'
     ],
     tiers: [
-      { range: '1 - 24 Units', price: '$ 23', discount: 'Single Bottle' },
-      { range: '25 - 99 Units', price: '$ 18', discount: '22% Wholesale Case' },
-      { range: '100+ Units', price: '$ 14.50', discount: '37% Commercial Pallet' }
+      { range: '1 - 24 Units', price: '$ 25', discount: 'Single Bottle' },
+      { range: '25 - 99 Units', price: '$ 20', discount: '20% Wholesale Case' },
+      { range: '100+ Units', price: '$ 15.50', discount: '38% Commercial Pallet' }
     ],
     specs: [
       { label: 'Net Volume', value: '750ml / 25.4 fl. oz.' },
