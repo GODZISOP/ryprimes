@@ -8,7 +8,7 @@ Official digital catalog and wholesale procurement portal for **RY PRIME SERVICE
 * **Website:** https://www.ryprimeservicellc.com
 * **Primary Contacts:**
   * **Email:** info@ryprimeservicellc.com
-  * **Phone / WhatsApp:** (+966) 53 098 7507
+  * **Phone / WhatsApp:** (+966) 50 248 3229
   * **Operations:** Global Distribution & Wholesale Trade Hub (Middle East & North America)
 
 ## 🛍️ Product Catalog & Collections

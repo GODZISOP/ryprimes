@@ -23,12 +23,12 @@ export const siteConfig = {
   // ─────────────────────────────────────────────
   // 📞 PHONE, WHATSAPP & EMAIL
   // ─────────────────────────────────────────────
-  phonePrimary:    "(+966) 53 098 7507",   // Top nav display
-  phonePrimaryTel: "+966530987507",         // tel: dial link
-  phoneDirect:     "(+966) 53 098 7507",   // Contact page direct line
-  phoneDirectTel:  "+966530987507",         // tel: dial link
-  whatsappNumber:  "966530987507",          // Numbers only (no + or spaces)
-  whatsappDisplay: "(+966) 53 098 7507",
+  phonePrimary:    "(+966) 50 248 3229",   // Top nav display
+  phonePrimaryTel: "+966502483229",         // tel: dial link
+  phoneDirect:     "(+966) 50 248 3229",   // Contact page direct line
+  phoneDirectTel:  "+966502483229",         // tel: dial link
+  whatsappNumber:  "966502483229",          // Numbers only (no + or spaces)
+  whatsappDisplay: "(+966) 50 248 3229",
   email:           "info@ryprimeservicellc.com",
   website:         "www.ryprimeservicellc.com",
 
